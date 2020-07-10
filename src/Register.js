@@ -151,6 +151,9 @@ class Register extends Component {
    .catch(function (error) {
      console.log(error);
    });
+   
+   value={this.props.location.state.template_name}
+   
    */
 	  
   };
@@ -167,7 +170,7 @@ class Register extends Component {
 		    <TextField
              hintText="Selected Template"
              floatingLabelText="Selected Template"
-			 value={this.props.location.state.template_name}
+			 value="TESTING MODE"
 			 disabled 
              onChange = {(event,newValue) => this.setState({account_name:newValue})}
              />
