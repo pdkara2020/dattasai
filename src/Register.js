@@ -170,7 +170,7 @@ class Register extends Component {
 		    <TextField
              hintText="Selected Template"
              floatingLabelText="Selected Template"
-			 value="TESTING MODE"
+			 value="TESTING MODE TEMPLATE"
 			 disabled 
              onChange = {(event,newValue) => this.setState({account_name:newValue})}
              />
