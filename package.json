@@ -11,6 +11,7 @@
     "material-ui": "^0.20.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
     "react-grid-gallery": "^0.5.5",
     "react-image-picker": "^1.1.1",
     "react-native-base64": "0.0.2",
