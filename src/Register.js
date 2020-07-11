@@ -154,6 +154,8 @@ class Register extends Component {
    
    value={this.props.location.state.template_name}
    
+    <a href={this.props.location.state.preview_url}> preview </a>
+   
    */
 	  
   };
@@ -175,7 +177,7 @@ class Register extends Component {
              onChange = {(event,newValue) => this.setState({account_name:newValue})}
              />
            <br/>
-		    <a href={this.props.location.state.preview_url}> preview </a>
+		    <a href={"www.google.com"}> preview </a>
 			
            <br/>
 		   <TextField
