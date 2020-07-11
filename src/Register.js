@@ -39,10 +39,11 @@ class Register extends Component {
 	  //reset_url
 	  
       var self = this;
-	
+	/*
 	var siteData = JSON.stringify({
 		"template_id": this.props.location.state.template_id
 	});
+	
 	
 	var userData = JSON.stringify({
 		"account_type": "CUSTOMER",
@@ -51,6 +52,7 @@ class Register extends Component {
 		"last_name":this.state.last_name,
 		"email":this.state.email
 	});
+	*/
 
 	var permissionData = JSON.stringify({
 		"permissions" : ["STATS_TAB","EDIT","E_COMMERCE","PUBLISH","REPUBLISH","DEV_MODE","INSITE","SEO","BACKUPS","CUSTOM_DOMAIN","RESET","BLOG","PUSH_NOTIFICATIONS","LIMITED_EDITING","CONTENT_LIBRARY"]
